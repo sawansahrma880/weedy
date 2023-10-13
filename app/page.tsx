@@ -94,28 +94,28 @@ What if it could never be recorded?</p>
       </div>
 
       <div className="w-full flex justify-center flex-wrap">
-      <div className="w-80 flex mt-14 justify-center flex-wrap">
+      <div className="w-80 md:full flex mt-14 justify-center flex-wrap">
             <h2 className="text-center w-full text-4xl">REAL LOVE STORIES</h2>
             <p className="text-center mt-4">like a river flows surely to the sea, so it goes some things are meant to be.</p>
           </div>
 
-          <div className="w-80 mt-10 flex justify-between">
+          <div className="w-80 mt-10 flex justify-between flex-wrap">
 
-            <div className="w-28 flex flex-wrap">
+            <div className="lg:w-28 w-full flex flex-wrap">
 
               <img src="card-1.jpg" alt="" className="w-full h-96" />
               <span className="mt-4 w-full">10 March 2023</span>
               <span className="mt-2" > Mukul and Kritika</span>
 
             </div>
-            <div className="w-28 flex flex-wrap">
+            <div className="lg:w-28 w-full flex flex-wrap">
 
               <img src="\_64I8781.jpg" alt="" className="w-full h-96" />
               <span className="mt-4 w-full">5 September 2023</span>
               <span className="mt-2" > Shyam and Nishtha</span>
 
             </div>
-            <div className="w-28 flex flex-wrap">
+            <div className="lg:w-28 w-full flex flex-wrap">
 
               <img src="\card_3.jpg" alt="" className="w-full h-96" />
               <span className="mt-4 w-full">7 january 2023</span>
