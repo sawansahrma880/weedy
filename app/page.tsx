@@ -105,7 +105,7 @@ What if it could never be recorded?</p>
 
               <img src="card-1.jpg" alt="" className="w-full h-96" />
               <span className="mt-4 w-full">10 March 2023</span>
-              <span className="mt-2" > Mukul and Kritika</span>
+              <span className="mt-2" > Shyam and Nishtha</span>
 
             </div>
             <div className="lg:w-28 w-full flex flex-wrap">
