@@ -8,6 +8,10 @@ function Navbar() {
   return (
     <>
 
+      <head>
+  <title>TheWeddyBea</title>
+  
+</head>
 
     <main className=' font-serif font-light '>
 
