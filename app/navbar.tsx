@@ -37,6 +37,18 @@ function Navbar() {
 </div>
 </div>
 
+<div className='lg:hidden flex justify-around '>
+
+<Link href={'/'}>
+ HOME
+  </Link>  
+    <Link href={'/about'}>ABOUT</Link>
+    <Link href={'storyes'}>STORIES</Link>
+    {/* <Link href={''}>STORE</Link>
+    <Link href={''}>TESTIMONIAL</Link> */}
+    <Link href={'/enquire'}>ENQUIRE</Link>
+
+</div>
 
     </main>
     
