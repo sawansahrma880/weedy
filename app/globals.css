@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+ padding: 0;
+ margin: 0;
+ background-color: #f5f1eb;
+}
+
+/* carosul css start here  */
+
+        /* Custom styles for the slider */
+       
+
+
+        /* second slider start here  */
+        .carousel {
+          max-width: 100%;
+          overflow: hidden;
+        }
+      
+        .carousel-inner {
+          display: flex;
+          animation: carouselAnimation 15s infinite;
+        }
+      
+        .carousel-slide {
+          flex: 0 0 100%;
+          width: 100%;
+          transition: transform 0.5s;
+        }
+
+        .carousel-slide img{
+          height: 80vh;
+          width: 100%;
+        }
+      
+        @keyframes carouselAnimation {
+          0% {
+            transform: translateX(0);
+          }
+          33% {
+            transform: translateX(-100%);
+          }
+          66% {
+            transform: translateX(-200%);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+        
+
+
+.enquire_submit_btn{
+  background-color: rgb(37, 37, 136);
+  color: #f5f1eb;
+}
+.ab_class{
+  height: 400px;
+  width: 100%;
+}
+.stories_span{
+  font-weight: 100;
+}
+.stories_class{
+  width: 100%;
+  height: 800px;
+}
+
+
+
+
+
+.slider-container {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+}
+
+.menu label:hover {
+  background: red;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s .75s;
+}
+
+[id^="slide-dot"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+}
+
+.slide-1 {
+  background-image: url("https://source.unsplash.com/t7YycgAoVSw/1600x900");
+}
+
+.slide-2 {
+  background-image: url("https://source.unsplash.com/11H1SSVcIxc/1600x900");
+}
+
+.slide-3 {
+  background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
+}
+.ft_mail{
+  color: blue;
+}
