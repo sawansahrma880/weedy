@@ -3,12 +3,22 @@ import Image from "next/image";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import type { NextPage } from "next";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 // import Carousel from "react-grid-carousel"
 
 
 
 export default function Home() {
-
+  
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
 
   return (
     <>
@@ -27,7 +37,7 @@ export default function Home() {
       <div className="flex justify-center flex-wrap">
         {/* first carousel section start here  */}
         <div className="md:w-8/12 my-16">
-        <div className="relative overflow-hidden">
+        {/* <div className="relative overflow-hidden">
   <div className="carousel">
     <div className="carousel-inner">
       <div className="carousel-slide">
@@ -42,7 +52,31 @@ export default function Home() {
       
     </div>
   </div>
-</div>
+</div> */}
+
+<div>
+        <Slider {...settings}>
+          <div className="home_slider">
+            <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+        </Slider>
+      </div>
 
         </div>
 
@@ -105,7 +139,7 @@ What if it could never be recorded?</p>
 
               <img src="card-1.jpg" alt="" className="w-full h-96" />
               <span className="mt-4 w-full">10 March 2023</span>
-              <span className="mt-2" > Shyam and Nishtha</span>
+              <span className="mt-2" > Mukul and Kritika</span>
 
             </div>
             <div className="lg:w-28 w-full flex flex-wrap">
