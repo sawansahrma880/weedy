@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
 
-      <head>
+<head>
   <title>TheWeddyBea</title>
   
 </head>
@@ -26,7 +26,7 @@ function Navbar() {
 
         </div>
 
-        <div className='hidden md:flex justify-center'>
+        <div className='hidden md:hidden lg:flex  justify-center '>
 
 <div className='w-7/12 lg:flex justify-evenly font-light  mainNavbar'>
 
@@ -41,7 +41,7 @@ function Navbar() {
 </div>
 </div>
 
-<div className='lg:hidden flex justify-around '>
+<div className='lg:hidden   flex justify-around '>
 
 <Link href={'/'}>
  HOME
