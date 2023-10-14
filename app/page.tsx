@@ -36,18 +36,18 @@ export default function Home() {
 
       <div className="flex justify-center flex-wrap">
         {/* first carousel section start here  */}
-        <div className="md:w-8/12 my-16">
+        <div className="md:w-8/12 hidden md:block my-16">
         <div className="relative overflow-hidden">
   <div className="carousel">
     <div className="carousel-inner">
       <div className="carousel-slide">
-        <img src="\_A3A8343.jpg" alt="Image 1" height={50}/>
+        <img src="\_A3A8343.jpg" alt="Image 1" />
       </div>
       <div className="carousel-slide">
         <img src="\DSC00663.jpg" alt="Image 2"/>
       </div>
       <div className="carousel-slide">
-        <img src="\DSC00557.jpg" alt="Image 3" height={50}/>
+        <img src="\DSC00557.jpg" alt="Image 3" />
       </div>
       
     </div>
@@ -80,6 +80,56 @@ export default function Home() {
 
         </div>
 
+
+        {/* ................  */}
+
+        <div className="md:w-8/12  md:hidden my-16">
+        <div className="relative overflow-hidden">
+  <div className="carousel">
+    <div className="carousel-inner">
+      <div className="carousel-slide">
+        <img src="\DSC00722.jpg" alt="Image 1" />
+      </div>
+      <div className="carousel-slide">
+        <img src="\DSC00729.jpg" alt="Image 2"/>
+      </div>
+      <div className="carousel-slide">
+        <img src="\_64I8763.jpg" alt="Image 3" />
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+{/* <div>
+        <Slider {...settings}>
+          <div className="home_slider">
+            <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+        </Slider>
+      </div> */}
+
+        </div>
+
+
+        {/* .................  */}
+
           {/* first carousel section end here  */}
 
           <div className="w-8/12 flex justify-center ">
@@ -100,7 +150,7 @@ What if it could never be recorded?</p>
 
           {/* second carousel start here  */}
 
-          <div className="md:w-80 flex justify-center">
+          <div className="md:w-80  hidden md:flex justify-center">
           <div className="relative overflow-hidden">
   <div className="carousel">
     <div className="carousel-inner">
@@ -120,7 +170,56 @@ What if it could never be recorded?</p>
 
           </div>
 
-         
+         {/* ......................  */}
+
+
+         <div className="md:w-80  md:hidden my-16">
+        <div className="relative overflow-hidden">
+  <div className="carousel">
+    <div className="carousel-inner">
+      <div className="carousel-slide">
+        <img src="\_64I8825.jpg" alt="Image 1" />
+      </div>
+      <div className="carousel-slide">
+        <img src="\_64I8781.jpg" alt="Image 2"/>
+      </div>
+      <div className="carousel-slide">
+        <img src="\_64I8742.jpg" alt="Image 3" />
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+{/* <div>
+        <Slider {...settings}>
+          <div className="home_slider">
+            <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+          <div>
+          <img src="\_A3A8343.jpg" alt="" />
+          </div>
+        </Slider>
+      </div> */}
+
+        </div>
+
+
+
+         {/* .......................  */}
 
 
 
