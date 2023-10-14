@@ -12,13 +12,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
   
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
+    // const settings = {
+    //   dots: true,
+    //   infinite: true,
+    //   speed: 500,
+    //   slidesToShow: 1,
+    //   slidesToScroll: 1
+    // };
 
   return (
     <>
@@ -37,7 +37,7 @@ export default function Home() {
       <div className="flex justify-center flex-wrap">
         {/* first carousel section start here  */}
         <div className="md:w-8/12 my-16">
-        {/* <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden">
   <div className="carousel">
     <div className="carousel-inner">
       <div className="carousel-slide">
@@ -52,9 +52,9 @@ export default function Home() {
       
     </div>
   </div>
-</div> */}
+</div>
 
-<div>
+{/* <div>
         <Slider {...settings}>
           <div className="home_slider">
             <img src="\_A3A8343.jpg" alt="" />
@@ -76,7 +76,7 @@ export default function Home() {
           <img src="\_A3A8343.jpg" alt="" />
           </div>
         </Slider>
-      </div>
+      </div> */}
 
         </div>
 
